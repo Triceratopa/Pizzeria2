@@ -1,15 +1,12 @@
-package bibite;
-
+package pizze;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-
-public class BibiteConfig {
+public class PizzaConfig {
     @Bean
-    public Bibite bibite() {
-
-        return new Bibite();
+    public Pizza pizza() {
+        return new Pizza();
     }
 }

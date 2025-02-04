@@ -1,15 +1,12 @@
-package bibite;
-
+package topping;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-
-public class BibiteConfig {
+public class ToppingsConfig {
     @Bean
-    public Bibite bibite() {
-
-        return new Bibite();
+    public Toppings toppings() {
+        return new Toppings();
     }
 }
