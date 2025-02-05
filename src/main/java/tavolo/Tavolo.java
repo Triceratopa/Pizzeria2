@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 public class Tavolo {
 
     private int numeroTavolo;
-    private int numeroPosti;
+    private int numeroTotalePosti;
     private StatoTavolo statoTavolo;
 }

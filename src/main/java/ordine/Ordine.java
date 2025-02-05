@@ -6,7 +6,9 @@ import lombok.NoArgsConstructor;
 import menu.Menu;
 import tavolo.Tavolo;
 
-import java.time.LocalTime;
+
+import java.time.LocalDateTime;
+
 import java.util.List;
 
 @Data
@@ -16,7 +18,7 @@ public class Ordine {
     private int idOrdine;
     private StatoOrdine statoOrdine;
     private int numeroPosti;
-  private LocalTime orario;
+  private LocalDateTime oraAcquisizione;
     private double prezzo;
     private Tavolo tavolo;
     private List<Menu> menu;

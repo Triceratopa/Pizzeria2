@@ -13,4 +13,9 @@ public class Bibite {
     private double price;
 
     private double calories;
+
+    public String getNome() {
+        return "";
+    }
+
 }
